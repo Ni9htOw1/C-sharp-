@@ -37,7 +37,6 @@ static void vyvod(int i, int[] b, ref string strv)
         vyvod(i + 1, b, ref strv);
     }
 }
-int[] c = new int[n];
 int[] a = new int[n];
 int[] b = new int[n];
 vvodmas(n, 1, ref a);
